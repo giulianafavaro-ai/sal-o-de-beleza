@@ -1,12 +1,19 @@
 h1{
-    color: rgb(252, 255, 165);
-    background-color: rgb(255, 107, 107);
+    color: rgb(255, 225, 155);
+    background-color: rgba(56, 165, 175, 0.647);
 }
 body{
-    background-color: rgb(165, 125, 218);
-    text-align: center;
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXhzaGhia2pyeHBjOTM2b2RhNTA2YWM0Mnp2NGJtNnQwZGRta2ZoOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3NtY188QaxDdC/giphy.gif");
+    /*background-color: rgb(165, 125, 218);*/
+    text-align:center;
+    background-size: 110PX 110PX;
 }
 img{
-    width: 1000px;
+    width: 500px;
 }
-
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: rgba(170, 10, 106, 0.511);
+}
