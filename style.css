@@ -6,10 +6,10 @@ body{
     background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXhzaGhia2pyeHBjOTM2b2RhNTA2YWM0Mnp2NGJtNnQwZGRta2ZoOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3NtY188QaxDdC/giphy.gif");
     /*background-color: rgb(165, 125, 218);*/
     text-align:center;
-    background-size: 110PX 110PX;
+    background-size: 165PX 165PX;
 }
 img{
-    width: 500px;
+    width: 1000px;
 }
 a{
     text-decoration: none;

@@ -1,0 +1,14 @@
+header {
+    background-color: rgba(10, 165, 255, 0.849)
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: rgb(179, 112, 26);
+    font-size: 22px;
+    font-weight
+}
