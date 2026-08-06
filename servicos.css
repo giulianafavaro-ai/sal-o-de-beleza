@@ -1,5 +1,7 @@
 header {
-    background-color: rgba(10, 165, 255, 0.849)
+    background-color: rgba(88, 194, 255, 0.835);
+    height: 150px;
+    padding: 20px 0;
 }
 nav li {
     display: inline;
@@ -8,7 +10,20 @@ nav li {
 nav a {
     text-decoration: none; 
     text-transform: uppercase;
-    color: rgb(179, 112, 26);
+    color: rgb(219, 155, 71);
     font-size: 22px;
     font-weight: bold;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+h1 img {
+    width: 150px;
 }
