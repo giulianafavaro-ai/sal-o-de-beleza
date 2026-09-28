@@ -1,19 +1,92 @@
-h1{
-    color: rgb(255, 225, 155);
-    background-color: rgba(56, 165, 175, 0.647);
+header {
+    background-color: rgb(255, 78, 158);
+    height: 150px;
+    padding: 20px 0;
 }
-body{
-    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXhzaGhia2pyeHBjOTM2b2RhNTA2YWM0Mnp2NGJtNnQwZGRta2ZoOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3NtY188QaxDdC/giphy.gif");
-    /*background-color: rgb(165, 125, 218);*/
-    text-align:center;
-    background-size: 100PX 110PX;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
-img{
-    width: 500px;
+nav a {
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: rgba(255, 240, 37, 0.926);
+    font-size: 22px;
+    font-weight: bold;
 }
-a{
-    text-decoration: none;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+h1 img {
+    width: 250px;
+}
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.servicos img{
+    width: 200px;
 }
 footer{
-    background-color: rgba(170, 10, 106, 0.511);
+    text-align: center;
+    background:rgb(255, 95, 204);
+    padding: 40px 0;
+}
+footer img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+footer p{
+    color:beige;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin:40px 0;
+}
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
