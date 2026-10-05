@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(255, 78, 158);
+    background-color: rgb(255, 151, 198);
     height: 150px;
     padding: 20px 0;
 }
@@ -62,7 +62,7 @@ h1 img {
 }
 footer{
     text-align: center;
-    background:rgb(255, 95, 204);
+    background:rgb(184, 9, 102);
     padding: 40px 0;
 }
 footer img{
@@ -79,7 +79,7 @@ main {
 form{
     margin:40px 0;
 }
-form label {
+form label, form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -89,4 +89,30 @@ form input{
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+.enviar{
+    width: 40%;
+    padding: 15px;
+    background-color:rgb(255, 158, 244);
+    color:rgb(13, 13, 46);
+    font-weight:bold ;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 1s all;
+}
+.enviar:hover{
+    background-color: rgb(116, 116, 255);
+    animation: repetir 1s linear infinite;
+    transform: scale(1.2);
+    transform: rotate(250deg);
+}
+@keyframes repetir {
+    0%{
+        transform: scale(1.0);
+    }
+    100%{
+        transform: scale(1.2);
+    }
 }
