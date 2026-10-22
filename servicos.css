@@ -10,7 +10,7 @@ nav li {
 nav a {
     text-decoration: none; 
     text-transform: uppercase;
-    color: rgba(255, 240, 37, 0.926);
+    color: rgb(255, 244, 88);
     font-size: 22px;
     font-weight: bold;
 }
