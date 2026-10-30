@@ -17,4 +17,49 @@ a{
 footer{
     background-color: rgba(170, 10, 106, 0.511);
 }
+header{
+    background-color: rgb(172, 103, 236);
+    height: 20px;
+    padding: 20px 0;
+}
+nav li{
+    display:inline;
+    margin: 0 0 0 10px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(112, 9, 153, 0.829);
+    font-size: 20px;
+    font-weight: bold; 
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+h1{
+    color: rgba(112, 9, 153, 0.829);
+    background-color: rgb(172, 103, 236);
+}
+body{
+    background-color: rgb(209, 178, 238);
+    text-align: center;
+}
+
+img{
+    width: 800px;
+}
+footer{
+    text-align: center;
+    background-color:rgb(172, 103, 236);
+    padding: 40px 0;
+}
+footer img{
+    width: 50px;
+    margin-top: 20px;
+}
+footer p{
+    color: white;
+}
 
