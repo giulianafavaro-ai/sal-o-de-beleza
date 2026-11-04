@@ -9,7 +9,7 @@ body{
     background-size: 100PX 110PX;
 }
 img{
-    width: 500px;
+    width: 450px;
 }
 a{
     text-decoration: none;
@@ -46,7 +46,6 @@ body{
     background-color: rgb(209, 178, 238);
     text-align: center;
 }
-
 img{
     width: 800px;
 }
